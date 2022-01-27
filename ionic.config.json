@@ -1,0 +1,7 @@
+{
+  "name": "test-import-lib",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
