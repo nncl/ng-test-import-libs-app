@@ -13,5 +13,11 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <vss-ui>
+    Hello world 2
+  </vss-ui>
+
+  <pre>
+    {{ ($users | async)?.info | json }}
+  </pre>
 </ion-content>
